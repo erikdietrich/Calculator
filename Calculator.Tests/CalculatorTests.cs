@@ -36,5 +36,14 @@ namespace Calculator.Tests
 
             Assert.AreEqual(.5M, result);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Dividing_1_By_0_Should_Generate_ArgumentException()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Divide(1, 0);
+        }
     }
 }

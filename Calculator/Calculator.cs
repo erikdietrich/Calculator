@@ -11,6 +11,9 @@ namespace Calculator
 
         public decimal Divide(decimal x, decimal y)
         {
+            if (y == 0)
+                throw new ArgumentException(nameof(y));
+
             return x / y;
         }
     }
