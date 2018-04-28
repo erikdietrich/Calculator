@@ -4,12 +4,12 @@ namespace Calculator
 {
     public class Calculator
     {
-        public int Add(int x, int y)
+        public decimal Add(decimal x, decimal y)
         {
             return x + y;
         }
 
-        public decimal Divide(int x, int y)
+        public decimal Divide(decimal x, decimal y)
         {
             return x / y;
         }

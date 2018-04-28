@@ -14,7 +14,7 @@ namespace Calculator.Tests
 
             var result = calculator.Add(2, 2);
 
-            Assert.AreEqual<int>(4, result);
+            Assert.AreEqual<decimal>(4, result);
         }
 
         [TestMethod]
