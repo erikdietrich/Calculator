@@ -8,5 +8,10 @@ namespace Calculator
         {
             return x + y;
         }
+
+        public decimal Divide(int x, int y)
+        {
+            return x / y;
+        }
     }
 }
