@@ -16,5 +16,15 @@ namespace Calculator.Tests
 
             Assert.AreEqual<int>(4, result);
         }
+
+        [TestMethod]
+        public void Dividing_2_By_1_Should_Be_2()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Divide(2, 1);
+
+            Assert.AreEqual(2, result);
+        }
     }
 }
