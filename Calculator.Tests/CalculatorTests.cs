@@ -9,7 +9,11 @@ namespace Calculator.Tests
         [TestMethod]
         public void Adding_2_And_2_Should_Return_4()
         {
+            var calculator = new Calculator();
 
+            var result = calculator.Add(2, 2);
+
+            Assert.AreEqual<int>(4, result);
         }
     }
 }
