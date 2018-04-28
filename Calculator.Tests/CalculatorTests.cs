@@ -7,8 +7,9 @@ namespace Calculator.Tests
     public class CalculatorTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Adding_2_And_2_Should_Return_4()
         {
+
         }
     }
 }
