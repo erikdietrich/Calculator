@@ -26,5 +26,15 @@ namespace Calculator.Tests
 
             Assert.AreEqual(2, result);
         }
+
+        [TestMethod]
+        public void Dividing_1_By_2_Should_Be_0_Point_5()
+        {
+            var calculator = new Calculator();
+
+            var result = calculator.Divide(1, 2);
+
+            Assert.AreEqual(.5M, result);
+        }
     }
 }
