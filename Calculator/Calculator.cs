@@ -9,10 +9,10 @@ namespace Calculator
 {
     public class Calculator
     {
-        public decimal Add(decimal x, decimal y)
+        public decimal Add(decimal x, decimal y, AnswerRecorder recorder = null)
         {
             var answer = x + y;
-            File.WriteAllText("answers.txt", answer.ToString());
+            recorder?.WriteToFile(answer.ToString());
             return answer;
         }
 
