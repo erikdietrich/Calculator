@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">
-      <Project>{4127a8fb-53c5-4045-b180-a60ab2a2060b}</Project>
+      <Project>{a0158d3b-3610-49e9-8422-ead6f8c92849}</Project>
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>
